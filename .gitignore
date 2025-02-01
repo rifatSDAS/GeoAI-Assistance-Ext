@@ -1,0 +1,55 @@
+# Build output
+out/
+dist/
+*.vsix
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# VS Code specific
+.vscode/
+.vscode-test/
+.vscode-test.mjs
+*.code-workspace
+
+# Test files
+coverage/
+.nyc_output/
+test-resources/
+src/test/extension.test.ts
+
+# Development
+.eslintcache
+.eslintrc.json
+eslint.config.mjs
+tsconfig.tsbuildinfo
+tsconfig.json
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor specific
+.idea/
+*.swp
+*.swo
+*~
+
+# Project specific
+src/test/extension.test.ts
+.vscodeignore
+vsc-extension-quickstart.md
+HOWTODOIT.txt
