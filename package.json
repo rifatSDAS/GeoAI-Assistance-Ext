@@ -3,19 +3,32 @@
   "displayName": "AI-Ass-Ext",
   "description": "AI assistance local",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/ai-ass-ext.git"
+  },
   "engines": {
-    "vscode": "^1.96.0"
+    "vscode": "^1.97.0"
   },
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onCommand:ai-ass-ext.hiDad"
+  ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
         "command": "ai-ass-ext.hiDad",
-        "title": "Chat with DeepSeek"
+        "title": "Open Geospatial AI Assistant"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "ai-ass-ext.hiDad",
+        "key": "ctrl+shift+a",
+        "mac": "cmd+shift+a"
       }
     ]
   },
@@ -32,20 +45,20 @@
   },
   "devDependencies": {
     "@types/mocha": "^10.0.10",
-    "@types/node": "20.x",
-    "@types/vscode": "^1.96.0",
-    "@typescript-eslint/eslint-plugin": "^8.17.0",
-    "@typescript-eslint/parser": "^8.17.0",
+    "@types/node": "22.13.4",
+    "@types/vscode": "^1.97.0",
+    "@typescript-eslint/eslint-plugin": "^8.24.0",
+    "@typescript-eslint/parser": "^8.24.0",
     "@vscode/test-cli": "^0.0.10",
     "@vscode/test-electron": "^2.4.1",
-    "eslint": "^9.16.0",
-    "ts-loader": "^9.5.1",
-    "typescript": "^5.7.2",
-    "webpack": "^5.95.0",
-    "webpack-cli": "^5.1.4"
+    "eslint": "^9.20.1",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.7.3",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1"
   },
   "dependencies": {
     "ai-ass-ext": "file:",
-    "ollama": "^0.5.12"
+    "ollama": "^0.5.13"
   }
 }

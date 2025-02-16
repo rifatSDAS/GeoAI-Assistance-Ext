@@ -1,71 +1,67 @@
-# ai-ass-ext README
+# ai-ass-ext
 
-This is the README for your extension "ai-ass-ext". After writing up a brief description, we recommend including the following sections.
+**ai-ass-ext** is a Visual Studio Code extension that provides an integrated chat interface built for geospatial software engineering. Using the power of the Ollama API and a custom system prompt, the extension helps you get expert advice on geospatial data processing, remote sensing, web mapping, full stack development, and more from within VS Code.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+- **Geospatial Chat:** Ask questions related to geospatial development, satellite technology, machine learning, and more. The chat leverages a custom AI system prompt to provide detailed and technical responses.
+- **Interactive Webview UI:** A modern chat interface with a messages area, an input box, and a send button for quick interactions.
+- **Real-Time Streaming:** Uses streaming responses from the Ollama chat API to display assistant output as it’s generated.
+- **Development Focused:** Provides code examples, tips, and best practices tailored for full stack geospatial software engineering.
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+Before using **ai-ass-ext**, ensure you have the following installed:
+- [Ollama](https://ollama.com) running on your machine (default server hosted at `http://localhost:11434`).
+- Node.js and npm to install dependencies for the extension.
+- Visual Studio Code with Extension Development Host support.
+
+## Installation
+
+1. Clone the repository.
+2. Run `npm install` in the project folder.
+3. Build the extension (if necessary, verify your webpack or compile configuration).
+
+## Running the Extension
+
+1. Open the project in Visual Studio Code.
+2. Press **F5** to launch the extension in a new Extension Development Host window.
+3. Open the Command Palette (Ctrl+Shift+P) and execute the command `ai-ass-ext.hiDad` to open the chat webview.
+4. Interact with the chat panel by typing your questions and reading the assistant’s response.
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+Currently, **ai-ass-ext** does not expose additional configuration options through VS Code settings. Future updates may include customizable settings.
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+- Ensure that the Ollama server is running when using the extension. If the connection fails, the extension will prompt an error.
+- The extension's chat interface appearance may vary on different screen sizes. Contributions to improve UI responsiveness are welcome.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+### 0.0.1
+- Initial release of **ai-ass-ext**
+- Basic functionality to ask geospatial related questions via a chat interface.
+- Integrated Ollama chat API for real-time streaming responses.
+- UI improvements in the chat panel, including modernized button design and responsive messaging area.
+- Minor bug fixes and enhancements based on initial feedback.
 
 ---
 
-## Following extension guidelines
+## Following Extension Guidelines
 
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
+Make sure to review the [VS Code Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines) for best practices and to keep your extension up-to-date with community standards.
 
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
+## Working with Markdown in VS Code
 
-## Working with Markdown
+- **Split the editor:** Use `Ctrl+\` (Windows/Linux) or `Cmd+\` (macOS).
+- **Toggle Preview:** Use `Shift+Ctrl+V` (Windows/Linux) or `Shift+Cmd+V` (macOS).
+- **IntelliSense for Markdown:** Use `Ctrl+Space` to see Markdown snippets.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+## For More Information
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+- [Visual Studio Code Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
+- [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+**Enjoy using ai-ass-ext and happy coding!**
