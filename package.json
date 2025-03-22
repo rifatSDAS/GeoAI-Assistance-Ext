@@ -1,11 +1,11 @@
 {
-  "name": "ai-ass-ext",
-  "displayName": "AI-Ass-Ext",
-  "description": "AI assistance local",
+  "name": "geoai-assistance-ext",
+  "displayName": "GeoAI-Assistance-Ext",
+  "description": "GeoAI Assistance Local",
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/ai-ass-ext.git"
+    "url": "https://github.com/yourusername/geoai-assistance-ext.git"
   },
   "engines": {
     "vscode": "^1.97.0"
@@ -14,19 +14,19 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:ai-ass-ext.hiDad"
+    "onCommand: geoai-assistance-ext.hiGeoAI"
   ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "ai-ass-ext.hiDad",
-        "title": "Open Geospatial AI Assistant"
+        "command": "geoai-assistance-ext.hiGeoAI",
+        "title": "Open Geospatial AI Assistance"
       }
     ],
     "keybindings": [
       {
-        "command": "ai-ass-ext.hiDad",
+        "command": "geoai-assistance-ext.hiGeoAI",
         "key": "ctrl+shift+a",
         "mac": "cmd+shift+a"
       }
@@ -45,20 +45,21 @@
   },
   "devDependencies": {
     "@types/mocha": "^10.0.10",
-    "@types/node": "22.13.4",
-    "@types/vscode": "^1.97.0",
-    "@typescript-eslint/eslint-plugin": "^8.24.0",
-    "@typescript-eslint/parser": "^8.24.0",
+    "@types/node": "22.13.11",
+    "@types/vscode": "^1.98.0",
+    "@typescript-eslint/eslint-plugin": "^8.27.0",
+    "@typescript-eslint/parser": "^8.27.0",
     "@vscode/test-cli": "^0.0.10",
     "@vscode/test-electron": "^2.4.1",
-    "eslint": "^9.20.1",
+    "eslint": "^9.23.0",
     "ts-loader": "^9.5.2",
-    "typescript": "^5.7.3",
+    "typescript": "^5.8.2",
     "webpack": "^5.98.0",
     "webpack-cli": "^6.0.1"
   },
   "dependencies": {
     "ai-ass-ext": "file:",
-    "ollama": "^0.5.13"
+    "geoai-assistance-ext": "file:",
+    "ollama": "^0.5.14"
   }
 }
