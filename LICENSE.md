@@ -7,7 +7,7 @@ Everyone is permitted to copy and distribute verbatim copies of this license doc
 ---
 
 ## Application Description
-**Open Geospatial AI Assistant** for geospatial software engineering tasks from science to technology to engineering. Copyright (C) 2025 rifatSDAS, https://github.com/rifatSDAS
+**Open Geospatial AI Assistance VS Code Extension** for geospatial tasks from science to technology to engineering. Copyright (C) 2025 rifatSDAS, https://github.com/rifatSDAS
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
