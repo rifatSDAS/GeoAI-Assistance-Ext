@@ -10,7 +10,7 @@ Check [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) for recommendatio
 - Integrated **Ollama API** to provide AI-powered geospatial assistance using the `deepseek-r1:1.5b` model.
 - Implemented a custom system prompt for geospatial expertise.
 - Added a webview-based chat interface with real-time streaming responses.
-- Registered the `geoai-assistance-ext.hiGeoAI` command to launch the chat interface.
+- Registered the `geoai-assistance-ext.GeoAI` command to launch the chat interface.
 - Included support for generating detailed, technical responses with code examples.
 
 ### Fixed
@@ -22,7 +22,7 @@ Check [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) for recommendatio
 ## [0.0.1] - 2024-03-23
 
 ### Added
-
+- Public GitHub repository to `package.json`.
 
 ### Fixed
 - Minor bug fixes and performance improvements.

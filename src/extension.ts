@@ -40,7 +40,7 @@ export function activate(context: vscode.ExtensionContext) {
     console.log('Extension is now active!');
 
     // Register the 'hiDad' command
-    const disposable = vscode.commands.registerCommand('geoai-assistance-ext.hiGeoAI', () => {
+    const disposable = vscode.commands.registerCommand('geoai-assistance-ext.GeoAI', () => {
         const panel = vscode.window.createWebviewPanel(
             'geospatialChat',
             'Open Geospatial AI Assistance',

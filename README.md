@@ -41,7 +41,7 @@ Before using **GeoAI Assistance Extension**, ensure you have the following insta
 
 1. Open the project in Visual Studio Code.
 2. From VS Code **Run and Debug** tab Press ***Run Extension*** (A green Run button) OR Press **F5** to launch the extension in a new Extension Development Host window.
-3. Open the Command Palette by pressing `Ctrl+Shift+P` and execute the command `geoai-assistance-ext.hiGeoAI` to open the chat webview.
+3. Open the Command Palette by pressing `Ctrl+Shift+P` and execute the command `geoai-assistance-ext.GeoAI` to open the chat webview.
 4. Interact with the chat panel by typing your questions and reading the assistant’s response.
 
 ## Extension Settings

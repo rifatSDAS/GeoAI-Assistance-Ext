@@ -14,19 +14,19 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand: geoai-assistance-ext.hiGeoAI"
+    "onCommand: geoai-assistance-ext.GeoAI"
   ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "geoai-assistance-ext.hiGeoAI",
+        "command": "geoai-assistance-ext.GeoAI",
         "title": "Open Geospatial AI Assistance"
       }
     ],
     "keybindings": [
       {
-        "command": "geoai-assistance-ext.hiGeoAI",
+        "command": "geoai-assistance-ext.GeoAI",
         "key": "ctrl+shift+a",
         "mac": "cmd+shift+a"
       }
