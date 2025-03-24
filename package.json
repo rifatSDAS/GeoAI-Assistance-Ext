@@ -5,7 +5,7 @@
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/geoai-assistance-ext.git"
+    "url": "https://github.com/rifatSDAS/GeoAI-Assistance-Ext.git"
   },
   "engines": {
     "vscode": "^1.97.0"

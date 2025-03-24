@@ -18,6 +18,7 @@ Before using **GeoAI Assistance Extension**, ensure you have the following insta
   NOTE: You are free to choose any LLM reasoning models based on your machine setups and your custom requirements. In this case, make sure you pulled that model with **Ollama API**.
 - **Node.js** and **npm** to install dependencies for the extension.
 - **Visual Studio Code** with **Extension Development Host** support.
+- **Git** for version management.
 
 ## Tech Stacks
 
@@ -39,8 +40,8 @@ Before using **GeoAI Assistance Extension**, ensure you have the following insta
 ## Running the Extension
 
 1. Open the project in Visual Studio Code.
-2. Press **F5** to launch the extension in a new Extension Development Host window.
-3. Open the Command Palette (Ctrl+Shift+P) and execute the command `geoai-assistance-ext.hiGeoAI` to open the chat webview.
+2. From VS Code **Run and Debug** tab Press ***Run Extension*** (A green Run button) OR Press **F5** to launch the extension in a new Extension Development Host window.
+3. Open the Command Palette by pressing `Ctrl+Shift+P` and execute the command `geoai-assistance-ext.hiGeoAI` to open the chat webview.
 4. Interact with the chat panel by typing your questions and reading the assistant’s response.
 
 ## Extension Settings

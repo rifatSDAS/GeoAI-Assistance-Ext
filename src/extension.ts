@@ -13,9 +13,9 @@ const ollama = new Ollama({
 let isGenerating = false;
 
 // System prompt to provide context to the model
-const SYSTEM_PROMPT = `You are an expert Full Stack Geospatial Software Engineer with expertise in:
+const SYSTEM_PROMPT = `You are an expert Geospatial Professional with expertise in:
 - Geospatial data processing and analysis
-- GDAL, OGR, and other geospatial libraries
+- GDAL, OGR, rasterio, geopandas, imageIO, and other geospatial libraries
 - Machine Learning and Deep Learning for geospatial applications
 - Cloud-native geospatial architectures
 - Web mapping libraries (Leaflet, OpenLayers, Mapbox GL)
